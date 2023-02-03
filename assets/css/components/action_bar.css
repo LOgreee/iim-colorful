@@ -1,0 +1,51 @@
+.action_bar{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .action_bar>a{
+        display: block;
+        background: #FFF;
+        border: solid 2px var(--main-color);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        transition: ease-in-out 0.1s;
+    }
+
+    .action_bar>a:hover{
+        transform: scale(1.2);
+    }
+
+/* Profil */
+    .action_bar>a.profil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .action_bar>a.profil>img{
+            width: 47px;
+            height: 47px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+/* Search & New post */
+    .action_bar>a.search, .action_bar>a.new_post{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .action_bar>a.search>img, .action_bar>a.new_post>img{
+            fill: var(--main-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }

@@ -1,0 +1,15 @@
+footer{
+    border-top: solid 1px var(--main-color);
+    margin: 0 120px 0 50px;
+    padding: 20px 0;
+    font-size: 0.8em;
+}
+
+    footer>div{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    footer>div>*{
+        margin-right: 50px;
+    }

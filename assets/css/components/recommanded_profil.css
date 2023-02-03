@@ -1,0 +1,65 @@
+.recommanded_profil>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: overlay;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    border-bottom: solid 1px var(--main-color);
+}
+
+
+/* Profil */
+    .recommanded_profil>div>.profil{
+        height: 200px;
+        padding: 10px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-radius: 20px;
+        border: solid 3px var(--main-color);
+        transition: ease-in-out 0.2s;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .recommanded_profil>div>.profil:hover{
+            color: #FFF;
+            background:  var(--main-color);
+            cursor: pointer;
+        }
+
+        .recommanded_profil>div>.profil>img{
+            border-radius: 50%;
+            border: solid 3px #FFF;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .recommanded_profil>div>.profil>h2{
+            margin: 5px 0;
+        }
+
+        .recommanded_profil>div>.profil>p{
+            margin: 5px 0;
+            font-size: 0.8em;
+        }
+
+        .recommanded_profil>div>.profil>img.follow{
+            margin: 0 20px 0 20px;
+            border: none;
+            width: 40px;
+            height: 40px;
+        }
+
+/* Phone */
+@media screen and (max-width:800px){
+    .recommanded_profil>div{
+        grid-template-columns: 1fr 1fr;
+    }
+}

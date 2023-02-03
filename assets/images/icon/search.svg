@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="search.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview137"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="5.1754899"
+     inkscape:cx="16.520175"
+     inkscape:cy="53.714722"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid260" />
+  </sodipodi:namedview>
+  <defs
+     id="defs132" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#444444;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path369"
+       cx="33.681026"
+       cy="33.681026"
+       r="19.901497" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#444444;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       d="M 48.77953,48.77953 86.070686,86.457123"
+       id="path533" />
+  </g>
+</svg>
