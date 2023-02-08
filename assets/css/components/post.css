@@ -10,6 +10,10 @@
     border-bottom: none;
 }
 
+.post.hide{
+    display: none;
+}
+
 /* Author */
     .post>.author{
         width: 30%;
@@ -83,4 +87,45 @@
         border-radius: 20px;
         object-fit: cover;
         object-position: center;
+    }
+
+/* Details */
+    .post>.details{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .post>.details>.category:before{
+        content: "";
+        display: inline-block;
+        border-radius: 50%;
+        background: var(--main-color);
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    .post>.details>.category{
+        margin-right: 20px;
+    }
+
+    .post>.details>.date{
+        border-left: 1px solid var(--main-color);
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+
+    .post>.details>.delete{
+        display: none;
+    }
+
+    .post.self>.details>.delete{
+        display: block;
+        border-left: 1px solid var(--main-color);
+        padding-left: 20px;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
     }

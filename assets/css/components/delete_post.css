@@ -1,0 +1,77 @@
+#deletePost{
+    display: none;
+}
+
+#deletePost.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    width: calc(100vw - 80px);
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(15px);
+    animation: fadeinbg 0.3s ease-out;
+}
+
+    @keyframes fadeinbg{
+        from{
+            background: rgba(0,0,0,0);
+            backdrop-filter: blur(0px);
+        }
+        to{
+            background: rgba(0,0,0,0.75);
+            backdrop-filter: blur(15px);
+        }
+    }
+
+    #deletePost.active>section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: #CCC;
+        background: #FFF;
+        border-radius: 30px;
+        text-align: center;
+        padding: 40px;
+        min-width: calc(50% - 60px);
+        max-width: 100%;
+        overflow: hidden;
+        animation: fadeinform 0.6s ease-out;
+    }
+
+    @keyframes fadeinform{
+        from{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 0%;
+            transform: translateY(-100px);
+        }
+        to{
+            opacity: 100%;
+            transform: translateY(0);
+        }
+    }
+
+    #deletePost.active>section>*{
+        width: 100%;
+    }
+
+        #deletePost.active>section>h2{
+            color: var(--main-text-color);
+            margin: 30px 0;
+        }
+
+/* Phone */
+@media screen and (max-width:800px){
+    #deletePost.active>section{
+        width: calc(100% - 60px);
+    }
+}

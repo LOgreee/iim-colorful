@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="185.03687mm"
+   height="27.543274mm"
+   viewBox="0 0 185.03687 27.543274"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3220">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3216" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0.86225897"
+         id="stop3218" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3184"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3182" />
+    </linearGradient>
+    <rect
+       x="151.92818"
+       y="410.42468"
+       width="116.4054"
+       height="124.60296"
+       id="rect398" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3220"
+       id="linearGradient3222"
+       x1="5.1880445"
+       y1="124.93087"
+       x2="37.647575"
+       y2="124.93087"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.634377,-112.74978)">
+    <g
+       id="g1171"
+       transform="matrix(0.84854184,0,0,0.84854184,24.020769,20.512355)">
+      <g
+         id="g3955"
+         inkscape:export-filename="colorful_logo.svg"
+         inkscape:export-xdpi="137.26994"
+         inkscape:export-ydpi="137.26994">
+        <circle
+           style="fill:url(#linearGradient3222);fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path234"
+           cx="21.41781"
+           cy="124.93087"
+           r="13.229766" />
+        <text
+           xml:space="preserve"
+           transform="matrix(0.66394656,0,0,0.66394656,-139.81595,-172.74761)"
+           id="text396"
+           style="font-weight:bold;font-size:66.6667px;font-family:Alexandria;-inkscape-font-specification:'Alexandria Bold';text-align:center;white-space:pre;shape-inside:url(#rect398);fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.55906;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"><tspan
+             x="187.0642"
+             y="471.69676"
+             id="tspan4079">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.346px;font-family:Alexandria;-inkscape-font-specification:'Alexandria Bold';text-align:center;letter-spacing:-2.18546px;text-anchor:middle;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:15.0847;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           x="120.68231"
+           y="140.47604"
+           id="text1164"><tspan
+             sodipodi:role="line"
+             id="tspan1162"
+             style="stroke-width:15.0846"
+             x="119.58958"
+             y="140.47604">LORFUL</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

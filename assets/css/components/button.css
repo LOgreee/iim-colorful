@@ -1,0 +1,46 @@
+a.btn{
+    display: block;
+    min-width: 50px;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: var(--main-text-color);
+    text-align: center;
+    text-decoration: none;
+    background: #FFF;
+    border: 1px solid var(--main-color);
+    border-radius: 30px;
+    transition: ease-in-out 0.2s;
+}
+
+    a.btn:hover{
+        color: #FFF;
+        background: var(--main-color);
+    }
+
+/* Primary */
+a.btn.primary{
+    color: #FFF;
+    background: var(--main-color);
+}
+
+    a.btn.primary:hover{
+        color: var(--main-color);
+        background: #FFF;
+        font-weight: 900;
+    }
+
+/* Follow */
+a.btn.follow:before{
+    content: 'Suivre';
+    font-size: 0.8em;
+}
+
+a.btn.follow{
+    padding: 3px 20px;
+}
+    
+    a.btn.follow:hover{
+        border: 1px solid #FFFFFF;
+    }

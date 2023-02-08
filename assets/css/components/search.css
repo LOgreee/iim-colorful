@@ -1,0 +1,103 @@
+#searchScreen{
+    display: none;
+}
+
+#searchScreen.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 25vw;
+    padding: 40px;
+    width: calc(100vw - 80px - 25vw);
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(15px);
+    animation: fadeinbg 0.3s ease-out;
+}
+
+    @keyframes fadeinbg{
+        from{
+            background: rgba(0,0,0,0);
+            backdrop-filter: blur(0px);
+        }
+        to{
+            background: rgba(0,0,0,0.75);
+            backdrop-filter: blur(15px);
+        }
+    }
+
+    #searchScreen.active>form{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        color: #CCC;
+        background: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        padding: 10px ;
+        min-width: 30%;
+        max-width: 100%;
+        overflow: hidden;
+        animation: fadeinform 0.6s ease-out;
+    }
+
+    @keyframes fadeinform{
+        from{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 0%;
+            transform: translateY(-100px);
+        }
+        to{
+            opacity: 100%;
+            transform: translateY(0);
+        }
+    }
+
+        #searchScreen.active>form>input[type='search']{
+            border: none;
+            border-radius: 50px;
+            margin-right: 20px;
+            padding: 0 20px;
+            width: calc(100% - 40px - 20px);
+            height: 100%;
+            font-size: 1.1em;
+            transition: ease-in-out 0.2s;
+        }
+
+        #searchScreen.active>form>input[type='submit']{
+            background-color: var(--main-color);
+            background-image: url(../../images/icon/search.svg);
+            background-size: 75%;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            transition: ease-in-out 0.2s;
+        }
+            
+            #searchScreen.active>form>input[type='submit']:hover{
+                background-color: #CCC;
+                cursor: pointer;
+            }
+
+/* Phone */
+@media screen and (max-width:800px){
+    #searchScreen.active{
+        left: 0;
+        padding: 100px 40px 40px 40px;
+        width: calc(100vw - 80px);
+    }
+    
+    #searchScreen.active>form{
+        width: 100%;
+    }
+}
